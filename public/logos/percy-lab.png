@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="origin-when-cross-origin">
+    <meta name="theme-color" content="#9e66bf" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1E1E1E" media="(prefers-color-scheme: dark)">
+    <title>All-in-one visual testing and review platform | Percy</title>
+    
+<meta name="percy-web/config/environment" content="%7B%22modulePrefix%22%3A%22percy-web%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22TEMPLATE_COMPILER_DEPRECATIONS%22%3Afalse%2C%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22pageTitle%22%3A%7B%22separator%22%3A%22%20-%20%22%2C%22prepend%22%3Atrue%7D%2C%22flashMessageDefaults%22%3A%7B%22timeout%22%3A10000%2C%22extendedTimeout%22%3A500%2C%22preventDuplicates%22%3Atrue%7D%2C%22launchDarkly%22%3A%7B%22clientSideId%22%3A%225b453a435b18c32c7440a5bd%22%2C%22mode%22%3A%22remote%22%2C%22localFlags%22%3A%7B%22visual-scan-new-flow%22%3Atrue%2C%22display-new-project-platform-toggle%22%3Atrue%2C%22display-diff-color-picker%22%3Afalse%2C%22test-service-flag%22%3Afalse%2C%22disable-contextual-diff%22%3Afalse%2C%22ocr-new-flow-enabled%22%3Atrue%2C%22rca-enabled%22%3Afalse%2C%22clamping-v2-enabled%22%3Atrue%2C%22show-real-device-info%22%3Atrue%2C%22is-visual-monitoring-enabled%22%3Atrue%2C%22comparison-log-analysis-enabled%22%3Atrue%2C%22lower-fuzz-for-safari%22%3Atrue%2C%22disable-edge-detection%22%3Atrue%2C%22vs-allow-mobile%22%3Afalse%2C%22percy-figma-integration%22%3Afalse%2C%22enable-workflow-management%22%3Atrue%2C%22enable-label-flow%22%3Afalse%2C%22stabilize-image-performance%22%3Atrue%2C%22only-admins-edit-settings%22%3Afalse%2C%22fuzz-from-project-safari%22%3Afalse%2C%22is-rbac-enabled%22%3Atrue%2C%22image-loading-indicator%22%3Atrue%2C%22snapshot-history-enabled%22%3Afalse%2C%22avif-compression%22%3Afalse%2C%22enable-cs-feedback%22%3Afalse%2C%22enable-sdk-deprecation-notice%22%3Atrue%2C%22index-app-updates%22%3Atrue%2C%22test-case-management%22%3Atrue%2C%22enable-percy-on-automate%22%3Atrue%2C%22enable-byos%22%3Afalse%2C%22disable-shift-detection%22%3Afalse%2C%22app-use-fuzz-5-for-selected-phones%22%3Afalse%2C%22display-diff-opacity-slider%22%3Atrue%2C%22new-ld-ff-2%22%3Afalse%7D%7D%2C%22emberKeyboard%22%3A%7B%22disableInputsInitializer%22%3Atrue%2C%22propagation%22%3Atrue%7D%2C%22historySupportMiddleware%22%3Atrue%2C%22moment%22%3A%7B%22outputFormat%22%3A%22LL%22%7D%2C%22APP%22%3A%7B%22apiUrls%22%3A%7B%22rca%22%3A%22%2Fapi%2Fv1%2Frca%22%2C%22logout%22%3A%22%2Fapi%2Fauth%2Flogout%22%2C%22buildItems%22%3A%22%2Fapi%2Fv1%2Fbuild-items%22%2C%22builds%22%3A%22%2Fapi%2Fv1%2Fbuilds%22%2C%22buildCommentThreads%22%3A%22%2Fapi%2Fv1%2Fbuilds%2F%25%40%2Fcomment-threads%22%2C%22githubIntegrationRequest%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fgithub-integration-request%22%2C%22githubIntegrationUrl%22%3A%22%2Fapi%2Fauth%2Fgithub%22%2C%22githubEnterpriseWebhookHandshakeUrl%22%3A%22%2Fapi%2Fwebhooks%2Fgithub_enterprise%2F%25%40%2Fhandshake%22%2C%22githubEnterpriseWebhookUrl%22%3A%22%2Fapi%2Fwebhooks%2Fgithub_enterprise%2F%25%40%22%2C%22projectsCollection%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fprojects%22%2C%22visualMonitoringProjects%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fvisual-monitoring-projects%22%2C%22visualMonitoringBuilds%22%3A%22%2Fapi%2Fv1%2Fvisual-monitoring-builds%2F%25%40%22%2C%22moveProject%22%3A%22%2Fapi%2Fv1%2Fprojects%2F%25%40%2Fmove%22%2C%22projectBranch%22%3A%22%2Fapi%2Fv1%2Fproject%2F%25%40%2Fbranch%22%2C%22organizationUsageNotificationSettings%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fusage-notification-settings%22%2C%22organizationVersionControlIntegrations%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fversion-control-integrations%22%2C%22organizationGithubManifestApps%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fgithub-manifest-apps%22%2C%22azureDevopsIntegrationUrl%22%3A%22%2Fapi%2Fauth%2Fazure_devops%22%2C%22slackIntegrations%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fslack-integrations%22%2C%22slackIntegrationConfig%22%3A%22%2Fapi%2Fv1%2Fslack-integrations%2F%25%40%2Fslack-integration-configs%2F%25%40%22%2C%22slackIntegrationConfigs%22%3A%22%2Fapi%2Fv1%2Fslack-integrations%2F%25%40%2Fslack-integration-configs%22%2C%22slackIntegrationRequests%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fslack-integration-requests%22%2C%22msteamsIntegrations%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fmsteams-integrations%22%2C%22msteamsIntegrationConfig%22%3A%22%2Fapi%2Fv1%2Fmsteams-integrations%2F%25%40%2Fmsteams-integration-configs%2F%25%40%22%2C%22msteamsIntegrationConfigs%22%3A%22%2Fapi%2Fv1%2Fmsteams-integrations%2F%25%40%2Fmsteams-integration-configs%22%2C%22emailIntegration%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Femail-integration%22%2C%22emailIntegrationConfig%22%3A%22%2Fapi%2Fv1%2Femail-integrations%2F%25%40%2Femail-integration-configs%2F%25%40%22%2C%22emailIntegrationConfigs%22%3A%22%2Fapi%2Fv1%2Femail-integrations%2F%25%40%2Femail-integration-configs%22%2C%22sitemaps%22%3A%22%2Fapi%2Fv1%2Fsitemaps%2F%25%40%22%2C%22subscription%22%3A%22%2Fapi%2Fv1%2Forganizations%2F%25%40%2Fsubscription%22%2C%22tags%22%3A%22%2Fapi%2Fv1%2Ftags%22%2C%22userFeatureFlags%22%3A%22%2Fapi%2Fv1%2Fuser-feature-flags%2F%25%40%22%2C%22userOrganizations%22%3A%22%2Fapi%2Fv1%2Fuser%2Forganizations%22%2C%22emailVerifications%22%3A%22%2Fapi%2Fv1%2Femail-verifications%2F%25%40%22%2C%22baseAsset%22%3A%22%2Fapi%2Fv1%2Fsnapshots%2F%25%40%2Fassets%2Fbase.html%22%2C%22headAsset%22%3A%22%2Fapi%2Fv1%2Fsnapshots%2F%25%40%2Fassets%2Fhead.html%22%2C%22snapshotSourceDiff%22%3A%22%2Fapi%2Fv1%2Fcomparisons%2F%25%40%2Fdiffs%2Fsource.diff%22%2C%22feedback%22%3A%22%2Fapi%2Fv1%2Ffeedback%22%2C%22rotateToken%22%3A%22%2Fapi%2Fv1%2Ftokens%2Frotate%22%2C%22allowSuperuser%22%3A%22%2Fapi%2Fv1%2Fuser%2Fallow-superuser%22%2C%22browserstackContactSales%22%3A%22%2Fapi%2Fbrowserstack%2Fcontact-sales%22%2C%22failureSuggestion%22%3A%22%2Fapi%2Fv1%2Fsuggestions%22%2C%22networkLogs%22%3A%22%2Fapi%2Fv1%2Fnetwork-logs%22%2C%22userPercyLogs%22%3A%22%2Fapi%2Fv1%2Flogs%22%7D%2C%22hashidsSalt%22%3A%22D%40rHGqKR3K%5Egv*sYS5MisWScnc484t%22%2C%22ANONYMOUS_USER%22%3A%22anonymous-user%22%2C%22GOOGLE_ANALYTICS_ID%22%3A%22UA-63384548-1%22%2C%22BROWSERSTACK_GOOGLE_ANALYTICS_ID%22%3A%22UA-418548-19%22%2C%22AMPLITUDE_USERS_INSTANCE_NAME%22%3A%22Users%22%2C%22AMPLITUDE_USERS_PROJECT_ID%22%3A%22e652be811fd14c3ad6d798d4c4a5c81e%22%2C%22AMPLITUDE_ORGANIZATIONS_INSTANCE_NAME%22%3A%22Organizations%22%2C%22AMPLITUDE_ORGANIZATIONS_PROJECT_ID%22%3A%2204fa4e5f5e122f73fefda9b4f9a731a8%22%2C%22PUSHER_APP_KEY%22%3A%22167d0bcbf4cd19c4c91f%22%2C%22PUSHER_APP_CLUSTER%22%3A%22us3%22%2C%22sentryDsn%22%3A%22https%3A%2F%2F4c28a8c59c934d729d261b988d6187c3%40sentry.io%2F235025%22%2C%22VERSION%22%3A%227128dc2afa922740dfe02598536110b4c73f7357%22%2C%22bitbucketCloudUrls%22%3A%7B%22integration%22%3A%22https%3A%2F%2Fbitbucket.org%2Fsite%2Faddons%2Fauthorize%3Faddon_key%3Dpercy-visual-testing%26redirect_uri%3Dhttps%253A%252F%252Fpercy.io%252Fapi%252Fbitbucket_cloud%252F%25%40%252Fsetup_redirect%22%7D%2C%22EDS_URL%22%3A%22https%3A%2F%2Feds.browserstack.com%3A443%2Fsend_event%22%2C%22BROWSERSTACK_EDS_KEY%22%3A%225PJymLNdWrOwzQNC7J6SXBuUFQGWq4Vuw%22%2C%22FRESHCHAT_PRODUCTION_KEY%22%3A%22624243d8-8006-4cae-a3f5-54cdaa3c156a%22%2C%22FRESHCHAT_STAGING_KEY%22%3A%22ddf4d74b-2bb0-4818-992c-c410f8c11891%22%2C%22name%22%3A%22percy-web%22%2C%22version%22%3A%221.0.0%22%7D%2C%22factoryGuy%22%3A%7B%22enabled%22%3Afalse%7D%2C%22stripe%22%3A%7B%22publishableKey%22%3A%22pk_live_cmaeNcmPuMihdT3Q7QDBDMDr%22%2C%22lazyLoad%22%3Atrue%7D%2C%22ember-cli-mirage%22%3A%7B%22usingProxy%22%3Atrue%2C%22useDefaultPassthroughs%22%3Atrue%7D%2C%22contentSecurityPolicy%22%3A%7B%22style-src%22%3A%22'self'%20'unsafe-inline'%20'unsave-eval'%22%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22ember-modal-dialog%22%3A%7B%7D%7D" />
+<script type="text/javascript">if (window.performance && window.performance.mark) {
+  window.performance.mark('@sentry/ember:initial-load-start');
+}
+</script>
+    <link rel="stylesheet" type="text/css" href="https://use.typekit.net/mzg8eqc.css">
+    <link rel="stylesheet" href="/static/assets/vendor-74426c8e7d74b11701ff2c8b2ab300d5.css">
+<link rel="stylesheet" href="/assets/chunk.524.25143a9cc6619c989e48.css" integrity="sha256-dr4Go6huvd0X1D4cmdVHe21frvtq8YJRw3VShcNNNPQ= sha512-sO/mX/h4ufspowEQ0HhGaLwGkBCZi6/SbIJGYGUW+B05gDjPrG4YyOYP5+Y9dvN1vqe4LHhzduWrTe/3nr4cvg==" />
+    <link rel="stylesheet" href="/static/assets/percy-web-5afc664cd77def637dc793ff2d747347.css">
+    <link rel="apple-touch-icon" href="/images/touch-icon.png">
+    
+    <script>
+      (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+      ;r.type="text/javascript";r.async=true
+      ;r.src="https://cdn.amplitude.com/libs/amplitude-4.1.1-min.gz.js"
+      ;r.onload=function(){if(e.amplitude.runQueuedFunctions){
+      e.amplitude.runQueuedFunctions()}else{
+      console.log("[Amplitude] Error: could not load SDK")}}
+      ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+      ;function s(e,t){e.prototype[t]=function(){
+      this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+      var o=function(){this._q=[];return this}
+      ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+      ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+      ;return this}
+      ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+      ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+      ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","logEventWithTimestamp","logEventWithGroups","setSessionId"]
+      ;function v(e){function t(t){e[t]=function(){
+      e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+      for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+      e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+      ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+      ;e.amplitude=n})(window,document);
+    </script>
+  </head>
+  <body>
+    
+    <script src="/static/assets/vendor-b7f26686e9c9c58200f08cbef16582a2.js"></script>
+<script src="/assets/chunk.259.c48bfed17e7d478c8b8b.js" integrity="sha256-hE//rPlMPNs2KKcpk3EWFcysEoy67lhuvX9Xz7T6DfQ= sha512-/YmpyAvgGTRIDG3V+dSE5DgMyp6dErZe4MQCDSOsBAwQQdtehjAHChhOxRCKbtLROWcWcqREActxVMca+JzTKA==" ></script>
+<script src="/assets/chunk.524.25143a9cc6619c989e48.js" integrity="sha256-7n3r/LNkdmnn3vHsUD+Xrpvnpp8aqHbMg325m+x1GYU= sha512-My+GTu5Uja3+YhmBXgHGKzYwdMAB5juHFv/fvK7lbmDhejttWyxQ2n/PH8N0pF4CfOOzOTKFfTzURsNKmCSTEA==" ></script>
+    <script src="/static/assets/percy-web-928c017dbf8015fab363ebf13f14a504.js"></script>
+    <script type="text/javascript">if (window.performance && window.performance.mark) {
+  window.performance.mark('@sentry/ember:initial-load-end');
+}
+</script>
+<div id="ember-basic-dropdown-wormhole"></div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    </script>
+    <script type="text/javascript">
+      // https://app.delighted.com/docs/api/web
+      !function(e,t,r,n){if(!e[n]){for(var a=e[n]=[],i=["survey","reset","config","init","set","get","event","identify","track","page","screen","group","alias"],s=0;s<i.length;s++){var c=i[s];a[c]=a[c]||function(e){return function(){var t=Array.prototype.slice.call(arguments);a.push([e,t])}}(c)}a.SNIPPET_VERSION="1.0.1";var o=t.createElement("script");o.type="text/javascript",o.async=!0,o.src="https://d2yyd1h5u9mauk.cloudfront.net/integrations/web/v1/library/"+r+"/"+n+".js";var u=t.getElementsByTagName("script")[0];u.parentNode.insertBefore(o,u)}}(window,document,"4MUYe4lqyvDdeNbK","delighted");
+    </script>
+  </body>
+</html>

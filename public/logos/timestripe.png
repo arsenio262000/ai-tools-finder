@@ -1,0 +1,299 @@
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Timestripe</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"/>
+    <meta name="csrf-token" content="AUWPA3COSMhUrSfJAvUQ6N74B0i329hRYqoW7sdFdvegFhcO0ZwwiRkvP4XiqD40" />
+    <meta name="yandex-verification" content="ad9c15b3517fb1ce" />
+
+    
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://timestripe.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Timestripe — Goal manager for teams and personal use">
+    <meta name="description" content="Connect daily tasks to long-term milestones and skyrocket your productivity. Manage all your tasks, knowledge and time with a beautiful, all-in-one tool. Great for teams and personal use." />
+    <meta property="og:description" content="Connect daily tasks to long-term milestones and skyrocket your productivity. Manage all your tasks, knowledge and time with a beautiful, all-in-one tool. Great for teams and personal use.">
+    <meta property="og:image" content="https://timestripe.com/static/opengraph.jpg">
+    <meta property="og:image:type" content="image/jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="timestripe.com">
+    <meta property="twitter:url" content="https://timestripe.com/">
+    <meta name="twitter:title" content="Timestripe — Goal manager for teams and personal use">
+    <meta name="twitter:description" content="Connect daily tasks to long-term milestones and skyrocket your productivity. Manage all your tasks, knowledge and time with a beautiful, all-in-one tool. Great for teams and personal use.">
+    <meta name="twitter:image" content="https://timestripe.com/static/opengraph.jpg">
+    
+
+    <meta property="fb:app_id" content="444260785757535" />
+
+    <link rel="manifest" href="/static/dist/prod/static/manifest.webmanifest.json">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-itunes-app" content="app-id=1529499962" />
+
+    
+
+
+    <script>
+    window.TIMESTRIPE_PRELOADED_DATA = {"/api/v2/settings/": {"isAuthenticated": false}}
+    </script>
+
+
+
+
+    
+    <script src="https://browser.sentry-cdn.com/5.17.0/bundle.min.js" integrity="sha384-lowBFC6YTkvMIWPORr7+TERnCkZdo5ab00oH5NkFLeQUAmBTLGwJpFjF6djuxJ/5" crossorigin="anonymous"></script>
+    <script>
+    Sentry.init({
+        dsn: 'https://2dfd7e96c4104c1c824bc4ca53f56059@o387971.ingest.sentry.io/5224048',
+        beforeSend: function(event) {
+            if( false && // Temporarily disable for debugging
+                event &&
+                event.exception &&
+                event.exception.values &&
+                event.exception.values.length > 0 &&
+                event.exception.values[0].value &&
+                event.exception.values[0].value.match(/Request failed with status code 40./i)
+            ) {
+                return null
+            } else {
+                if (window.SENTRY_RELEASE) {
+                    event.release = window.SENTRY_RELEASE.id
+                }
+                return event
+            }
+        },
+    });
+    </script>
+    
+
+    <link href="/static/dist/prod/static/style-B6bHoveZ.css" rel="stylesheet">
+    <script type="module" src="/static/dist/prod/static/timestripe-BwNIUQIW.js"></script>
+
+    <!-- favicon for legacy browsers -->
+    <link rel="icon" type="image/png" href="/static/favicon-32x32.png" sizes="32x32" />
+    <!-- svg with dark theme support -->
+    <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+    <!-- icon for iOS -->
+    <link rel="apple-touch-icon" href="/static/apple-touch-icon-152x152.png" />
+
+    
+
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N4SQRD2');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+
+
+
+<script type="module" src="/static/dist/prod/static/tracker-BCRw3QWP.js"></script>
+<script type="module">
+
+  
+  setTimeout(function() {
+
+    
+    tracker.setUser(null)
+    
+
+    
+
+    
+
+    tracker.pageView()
+
+  }, 2000);
+</script>
+</head>
+
+<body>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4SQRD2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(34795480, "init", {
+         clickmap:true,
+         trackLinks:true,
+         accurateTrackBounce:true,
+         webvisor:true
+    });
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/34795480" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+    ;r.type="text/javascript"
+    ;r.integrity="sha384-d/yhnowERvm+7eCU79T/bYjOiMmq4F11ElWYLmt0ktvYEVgqLDazh4+gW9CKMpYW"
+    ;r.crossOrigin="anonymous";r.async=true
+    ;r.src="https://cdn.amplitude.com/libs/amplitude-5.2.2-min.gz.js"
+    ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+    console.log("[Amplitude] Error: could not load SDK")}}
+    ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+    ;function s(e,t){e.prototype[t]=function(){
+    this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+    var o=function(){this._q=[];return this}
+    ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+    ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+    ;return this}
+    ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+    ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+    ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+    ;function v(e){function t(t){e[t]=function(){
+    e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+    for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+    e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+    ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+    ;e.amplitude=n})(window,document);
+  
+    amplitude.getInstance().init("02f0fa952046d0dbe1b1c2b9472e8bb9", null, {
+      saveEvents: true,
+      includeUtm: true,
+      includeReferrer: true,
+    });
+</script>
+
+
+
+
+
+
+
+<div id="root">
+    
+        <style>
+    .StalledLoading {
+        text-align: center;
+        max-width: 400px;
+        margin: 15vh auto;
+        position: relative;
+        padding: 3em;
+        padding-top: 16px;
+
+        opacity: 0;
+        animation-delay: 10s;
+        animation-duration: 1s;
+        animation-name: StalledLoadingFadeIn;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    }
+
+    .StalledLoading p {
+        color: #666;
+        line-height: 160%;
+    }
+
+    @keyframes StalledLoadingFadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    .StalledLoading:before {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 32px;
+        background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M13.4174 30L2 26.2105V5.5L13.4174 2V30ZM18.8968 28.1379L15.4208 26.5862V5.5L18.8968 4V28.1379ZM20.9725 24.4139L24.4484 25.6553V6.00006L20.9725 7.50006V24.4139ZM30 21.6206L26.5241 20.6896V11.4999L30 10.4999V21.6206Z' fill='currentColor'/%3E%3C/svg%3E");
+        position: absolute;
+        left: 50%;
+        margin-left: -16px;
+        top: -32px;
+    }
+
+    .StalledLoading button {
+        border: 0;
+        background: none;
+        padding: 0;
+        margin: 0;
+
+        color: #000;
+        background: #f9f9fa;
+        border-radius: 4px;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .StalledLoading button:hover {
+        background: #eee;
+    }
+</style>
+
+
+<div class="StalledLoading">
+    <p>
+        Timestripe seems to&nbsp;take unusually long time to&nbsp;open.
+        We’re sorry about that.
+    </p>
+    <p>
+        Please wait, or&nbsp;try reloading in&nbsp;a&nbsp;minute or&nbsp;so.
+    </p>
+    <br />
+    <br />
+    <p>
+        
+        <button onclick="window.location = window.location + '?&noCache=1';">Reload</button>
+        
+    </p>
+</div>
+
+    
+</div>
+
+<script type="module">
+Timestripe.renderApp(document.getElementById('root'))
+</script>
+
+
+
+
+    <div
+        id="g_id_onload"
+        data-client_id="961288570935-5h2mc1rs6kmgnusb93l83q6gnneq3sbb.apps.googleusercontent.com"
+        data-context="signin"
+        data-login_uri="https://timestripe.com/login/google-oauth2/"
+        style="position: absolute; top: 70px; right: 20px; width: 0; height: 0; z-index: 1001;">
+    </div>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+
+
+</body>
+</html>
