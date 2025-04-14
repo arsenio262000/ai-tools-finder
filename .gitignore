@@ -1,4 +1,19 @@
 
-# clerk configuration (can include secrets)
+# Clerk configuration (can include secrets)
 /.clerk/
-node_modules
+
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+dist/
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env.local
+.env
+.next
